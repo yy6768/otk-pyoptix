@@ -1,0 +1,20 @@
+# Python build artifacts
+*.pyc
+__pycache__/
+*.pyd
+*.so
+*.dll
+*.dylib
+*.egg-info/
+dist/
+build/
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+_deps/
+
+# pybind11 specific
+pybind11/

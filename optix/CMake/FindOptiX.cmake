@@ -57,5 +57,5 @@ endif()
 set(OptiX_INCLUDE_DIR ${OptiX_ROOT_DIR}/include)
 
 add_library(OptiX::OptiX INTERFACE IMPORTED)
-target_include_directories(OptiX::OptiX INTERFACE ${OptiX_INCLUDE_DIR})
+target_include_directories(OptiX::OptiX INTERFACE ${OptiX_INCLUDE_DIR} "${OptiX_ROOT_DIR}/include")
 
